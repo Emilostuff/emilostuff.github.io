@@ -1,2 +1,2 @@
-# emilostuff.github.io
-My Website
+# emilskydsgaard.dk
+My Personal Website
