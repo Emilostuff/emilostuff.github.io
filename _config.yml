@@ -3,6 +3,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 plugins:
   - jekyll-sitemap
@@ -10,6 +11,12 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # Pages Path
 defaults:

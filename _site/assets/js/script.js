@@ -1,7 +1,7 @@
 var path = window.location.pathname;
 console.log(path);
 
-var dynamic_header = (path == "/" | path == "/blog" | path == "/portfolio" | path == "/contact");
+var dynamic_header = (path == "/" | path == "/blog" | path == "/projects" | path == "/contact");
 
 
 

@@ -3,11 +3,16 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Blogs</h2>
+        <h2 class="section-title">Latest Blogs</h2>
       </div>
       {% for post in site.posts offset:0 limit:3 %}
       {% include post.html %}
       {% endfor %}
+    </div>
+    <div class="row mt-40">
+      <div class="col-lg-10 mx-auto text-center">
+        <a href="{{ site.baseurl }}/blog" class="btn btn-primary">See All Blog Posts</a>
+      </div>
     </div>
   </div>
 </section>

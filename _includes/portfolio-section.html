@@ -1,6 +1,6 @@
 {% if site.data.settings.portfolio-home-items %}
 <!-- portfolio -->
-<section class="section position-relative">
+<section class="section position-relative mb-n40">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -22,6 +22,11 @@
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="row mt-40">
+      <div class="col-lg-10 mx-auto text-center">
+        <a href="{{ site.baseurl }}/projects" class="btn btn-primary">See All Projects</a>
+      </div>
     </div>
   </div>
   <img class="img-fluid edu-bg-image w-100" src="{{ site.baseurl }}/assets/images/backgrounds/education-bg.png"

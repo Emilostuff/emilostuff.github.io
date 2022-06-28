@@ -12,8 +12,8 @@ location: Copenhagen, Denmark
 
 menu:
 # - {name: About, link: '/about'}
+- {name: Projects, link: '/projects'}
 - {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
 - {name: Contact, link: '/contact'}
 
 
@@ -42,12 +42,10 @@ hero:
   hero-bg: "assets/images/backgrounds/abstract2.jpeg"
 
 social:
-- {icon: "ti-github", link: "#"}
-- {icon: "ti-linkedin", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-youtube", link: "#"}
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-github", link: "https://github.com/Emilostuff"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/emilskydsgaard/"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/emilostuff/"}
+- {icon: "ti-youtube", link: "https://www.youtube.com/emilostuff"}
 
 
 #-------------------------------
