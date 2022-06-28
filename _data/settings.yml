@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Software Engineer & Digital Creative
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -154,23 +154,23 @@ services:
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
-    name: test project name
+    name: Some Project
     
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
-    name: test project name
+    name: Some Project
     
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
-    name: test project name
+    name: Some Project
     
   - image : "assets/images/portfolio/item-4.png"
     url: "#"
-    name: test project name
+    name: Some Project
     
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
-    name: test project name
+    name: Some Project
 
 
 # Portfolio Page
@@ -191,43 +191,51 @@ portfolio-label:
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
+    name: Some Project
     portfolio-type:
      - type: "design"
      - type: "illustration"
       
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "branding"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "illustration"
       
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "design"
       - type: "branding"
       
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "illustration"
       
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "branding"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "design"
       - type: "illustration"
@@ -235,6 +243,7 @@ portfolio-items:
       
   - image : "assets/images/portfolio/item-7.png"
     url: "#"
+    name: Some Project
     portfolio-type:
       - type: "illustration"
 
