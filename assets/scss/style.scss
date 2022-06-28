@@ -5,14 +5,15 @@
 [MAIN STYLESHEET]
 
 PROJECT:	Project Name
-VERSION:	Versoin Number
+VERSION:	Version Number
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 
-$baseurl: "{{ site.baseurl }}";
+$baseurl: "{{ site.baseurl }}" + "/";
+$hero-bg: $baseurl + "{{ site.data.settings.hero.hero-bg }}";
 
 @import 'variables';
 

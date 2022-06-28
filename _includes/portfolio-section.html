@@ -1,6 +1,6 @@
 {% if site.data.settings.portfolio-home-items %}
 <!-- portfolio -->
-<section class="section">
+<section class="section position-relative">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -14,9 +14,9 @@
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <h4 class="text-white">{{ item.name }}</h4>
-              <br>
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+              <h5 class="text-white transparent-text">{{ item.year }}<h5>
+                  <h4 class="text-white mb-20">{{ item.name }}</h4>
+                  <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
             </div>
           </div>
         </div>
@@ -24,6 +24,8 @@
       {% endfor %}
     </div>
   </div>
+  <img class="img-fluid edu-bg-image w-100" src="{{ site.baseurl }}/assets/images/backgrounds/education-bg.png"
+    alt="bg-image">
 </section>
 <!-- /portfolio -->
 {% endif %}

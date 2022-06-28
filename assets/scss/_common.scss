@@ -9,15 +9,6 @@ body {
 }
 
 /* preloader */
-.masthead {
-  height: 400px;
-  min-height: 500px;
-  background-image: url($baseurl + "/assets/images/backgrounds/abstract2.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .preloader {
   position: fixed;
   top: 0;
@@ -106,6 +97,10 @@ a:hover {
   }
 }
 
+.transparent-text {
+  opacity: .5;
+}
+
 .outline-0 {
   outline: 0 !important;
 }
@@ -184,6 +179,14 @@ a:hover {
 
 .mb-100 {
   margin-bottom: 100px !important;
+}
+
+.mt-n120 {
+  margin-top: -120px !important
+}
+
+.mt-n220 {
+  margin-top: -220px !important
 }
 
 .zindex-1 {

@@ -1,3 +1,10 @@
+var path = window.location.pathname;
+console.log(path);
+
+var dynamic_header = (path == "/" | path == "/blog" | path == "/portfolio" | path == "/contact");
+
+
+
 (function ($) {
     'use strict';
 
@@ -5,10 +12,12 @@
 
     // Sticky Menu
     $(window).scroll(function () {
-        if ($('.navigation').offset().top > 100) {
-            $('.navigation').addClass('nav-bg');
-        } else {
-            $('.navigation').removeClass('nav-bg');
+        if (dynamic_header) {
+            if ($('.navigation').offset().top > 100) {
+                $('.navigation').addClass('nav-bg');
+            } else {
+                $('.navigation').removeClass('nav-bg');
+            }
         }
     });
 
@@ -36,6 +45,10 @@
 
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {
+
+        if (!dynamic_header) {
+            $('.navigation').addClass('nav-bg-static');
+        }
 
         var parallaxBox = document.getElementById('parallax');
         var
@@ -106,33 +119,33 @@
         dots: false,
         arrows: false,
         responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 400,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
             }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
         ]
     });
 

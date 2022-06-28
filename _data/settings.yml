@@ -5,13 +5,13 @@ title: Emil Skydsgaard
 logo: 
 author: Emil Skydsgaard
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: emilskydsgaard@gmail.com
+phone: +45 30 95 15 04
+location: Copenhagen, Denmark
 #copyright: "&copy; Emil Skydsgaard"
 
 menu:
-- {name: About, link: '/about'}
+# - {name: About, link: '/about'}
 - {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
 - {name: Contact, link: '/contact'}
@@ -38,12 +38,15 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Software Engineer & Digital Creative
+  # hero-title: Software Engineer & Digital Creative
+  hero-bg: "assets/images/backgrounds/abstract2.jpeg"
 
 social:
-- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-github", link: "#"}
+- {icon: "ti-linkedin", link: "#"}
 - {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-youtube", link: "#"}
+- {icon: "ti-facebook", link: "#"}
 - {icon: "ti-twitter", link: "#"}
 
 
@@ -155,22 +158,27 @@ portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     name: Some Project
+    year: 2022
     
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     name: Some Project
+    year: 2022
     
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     name: Some Project
+    year: 2022
     
   - image : "assets/images/portfolio/item-4.png"
     url: "#"
     name: Some Project
+    year: 2022
     
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     name: Some Project
+    year: 2022
 
 
 # Portfolio Page
@@ -192,6 +200,7 @@ portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
      - type: "design"
      - type: "illustration"
@@ -199,18 +208,21 @@ portfolio-items:
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "branding"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "illustration"
       
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "design"
       - type: "branding"
@@ -218,24 +230,28 @@ portfolio-items:
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "illustration"
       
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "design"
       
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "branding"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "design"
       - type: "illustration"
@@ -244,6 +260,7 @@ portfolio-items:
   - image : "assets/images/portfolio/item-7.png"
     url: "#"
     name: Some Project
+    year: 2022
     portfolio-type:
       - type: "illustration"
 
@@ -305,5 +322,5 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+# contact-title: Contact Info
+# contact-email: steve.fruits@email.com
