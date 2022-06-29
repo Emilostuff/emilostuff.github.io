@@ -9,14 +9,14 @@
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-home-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
+              <h4 class="text-white mb-10 mt-3">{{ item.name }}</h4>
               <h5 class="text-white transparent-text">{{ item.year }}<h5>
-                  <h4 class="text-white mb-20">{{ item.name }}</h4>
-                  <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+                  <!-- <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a> -->
             </div>
           </div>
         </div>

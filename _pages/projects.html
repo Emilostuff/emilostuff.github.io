@@ -21,15 +21,14 @@ title: Projects
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item"
+      <div class="col-lg-4 col-6 mb-4 shuffle-item onclick="location.href='{{ item.url }}';" style="cursor:pointer;""
         data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
+              <h4 class="text-white mb-10 mt-3">{{ item.name }}</h4>
               <h5 class="text-white transparent-text">{{ item.year }}<h5>
-                  <h4 class="text-white mb-20">{{ item.name }}</h4>
-                  <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
             </div>
           </div>
         </div>
