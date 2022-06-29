@@ -22,12 +22,12 @@ layout: default
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <div class="content">
-          <img src="{{page.image | relative_url }}" class="img-fluid w-100 rounded float-left mr-5 mb-4"
-            alt="{{page.title}}">
-            <h2 class="font-tertiary mb-5">{{ page.title | escape }}</h2>
+            <h2 class="font-tertiary mb-5 mt-n20">{{ page.title | escape }}</h2>
             <p class="font-secondary smaller-text mt-n40 mb-30">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{
               page.author }}</span class="text-primary"> on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}
           </p>
+          <img src="{{page.image | relative_url }}" class="img-fluid w-100 rounded float-left mr-5 mb-4"
+            alt="{{page.title}}">
           {{ content }}
         </div>
       </div>
