@@ -2,11 +2,16 @@ var path = window.location.pathname;
 console.log(path);
 
 var dynamic_header = (path == "/" | path == "/blog" | path == "/projects" | path == "/contact");
-
+$("a[href='#bottom']").click(function() {
+    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    return false;
+  });
 
 
 (function ($) {
     'use strict';
+
+    
 
 
 

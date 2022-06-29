@@ -1,13 +1,16 @@
 <div class="col-lg-4 col-sm-6 mb-4" onclick="location.href='{{ post.url | relative_url }}';" style="cursor:pointer;">
   <article class="card shadow">
-    <img class="rounded card-img-top2" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    <div class="hover-wrapper">
+      <img class="rounded card-img-top2" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+
     <div class="card-body">
       <h4 class="card-title">
-        <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {{ post.title }}
       </h4>
       <p class="card-text">{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include
         JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
     </div>
-  </a>
+    </a>
   </article>
 </div>
