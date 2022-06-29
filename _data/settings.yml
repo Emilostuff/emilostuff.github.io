@@ -4,11 +4,15 @@
 title: Emil Skydsgaard
 logo: 
 author: Emil Skydsgaard
-description: this is meta description
+description: My Personal Website
 email: emilskydsgaard@gmail.com
 phone: +45 30 95 15 04
 location: Copenhagen, Denmark
 #copyright: "&copy; Emil Skydsgaard"
+about: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 
 menu:
 # - {name: About, link: '/about'}
@@ -51,12 +55,6 @@ social:
 #-------------------------------
 # About (Section and Page)
 
-# About Section
-blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-blurb-btn-link: '/about'
-blurb-btn-name: know more
 
 
 # About Page
@@ -117,7 +115,6 @@ experience:
 
 education-title: Education
 education:
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
 - {name: Electrical Engineering, date: '2020 - 2023', organization: 'Technical University of Denmark'}
 - {name: Film & Media Science, date: '2016 - 2019', organization: 'University of Copenhagen'}
 
@@ -182,17 +179,22 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "SOFTWARE",
+    type : "software"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "ELECTRONICS",
+    type : "electronics"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "VIDEOS",
+    type : "videos"
   }
+- {
+    title : "MISC",
+    type : "misc"
+  }
+
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
@@ -200,67 +202,65 @@ portfolio-items:
     name: Some Project
     year: 2022
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
+     - type: "software"
+     - type: "electronics"
       
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "branding"
+      - type: "software"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "illustration"
+      - type: "software"
       
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "design"
-      - type: "branding"
+      - type: "videos"
+      - type: "electronics"
       
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "illustration"
+      - type: "electronics"
       
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "design"
+      - type: "software"
       
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "branding"
+      - type: "videos"
       
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+      - type: "videos"
       
   - image : "assets/images/portfolio/item-7.png"
     url: "#"
     name: Some Project
     year: 2022
     portfolio-type:
-      - type: "illustration"
+      - type: "misc"
 
 
 #-------------------------------

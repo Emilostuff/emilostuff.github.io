@@ -1,7 +1,5 @@
-var path = window.location.pathname;
-console.log(path);
 
-var dynamic_header = (path == "/" | path == "/blog" | path == "/projects" | path == "/contact");
+
 $("a[href='#bottom']").click(function() {
     $("html, body").animate({ scrollTop: $(document).height() }, "slow");
     return false;
@@ -17,12 +15,10 @@ $("a[href='#bottom']").click(function() {
 
     // Sticky Menu
     $(window).scroll(function () {
-        if (dynamic_header) {
-            if ($('.navigation').offset().top > 100) {
-                $('.navigation').addClass('nav-bg');
-            } else {
-                $('.navigation').removeClass('nav-bg');
-            }
+        if ($('.navigation').offset().top > 100) {
+            $('.navigation').addClass('nav-bg');
+        } else {
+            $('.navigation').removeClass('nav-bg');
         }
     });
 
@@ -50,10 +46,6 @@ $("a[href='#bottom']").click(function() {
 
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {
-
-        if (!dynamic_header) {
-            $('.navigation').addClass('nav-bg-static');
-        }
 
         var parallaxBox = document.getElementById('parallax');
         var
