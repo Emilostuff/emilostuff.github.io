@@ -201,7 +201,7 @@ portfolio-items:
     feature-gif: "https://i.imgur.com/3cpl4DZ.gif"
     url: "/ordle"
     id: ordle
-    name: Ordle
+    name: Ordle – Wordle in Danish
     year: 2022
     portfolio-type:
      - type: "software"
@@ -213,6 +213,16 @@ portfolio-items:
     year: 2022
     portfolio-type:
      - type: "electronics"
+
+  - image: "https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg"
+    feature-video: https://www.youtube.com/embed/9Fx9zQJe3H4
+    url: "/plant-keeper"
+    id: plant-keeper
+    name: Automated Plant Watering System
+    year: 2021
+    portfolio-type:
+     - type: "electronics"
+     - type: "videos"
    
 
 #-------------------------------
