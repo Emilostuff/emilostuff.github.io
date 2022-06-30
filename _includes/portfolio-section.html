@@ -11,11 +11,14 @@
       {% for item in site.data.settings.portfolio-home-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;">
         <div class="position-relative rounded hover-wrapper">
+          {% if item.image contains "http" %}
+          <img src="{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          {% else %}
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          {% endif %}
           <div class="hover-overlay">
             <div class="hover-content">
               <h4 class="text-white mb-10 mt-3">{{ item.name }}</h4>
-              <h4 class="text-white transparent-text">{{ item.year }}<h4>
                   <!-- <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a> -->
             </div>
           </div>

@@ -197,13 +197,14 @@ portfolio-label:
 
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    name: Some Project
+  - image : "https://i.imgur.com/3cpl4DZ.gif"
+    url: "/ordle"
+    id: ordle
+    name: Ordle
+    byline: Wordle in Danish
     year: 2022
     portfolio-type:
      - type: "software"
-     - type: "electronics"
       
   - image : "assets/images/portfolio/item-2.png"
     url: "#"

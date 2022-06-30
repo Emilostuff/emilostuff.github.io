@@ -8,26 +8,18 @@ layout: default
     <li class="mb-3"><a class="text-white" href="{{ social.link }}" target="_blank"><i class="{{ social.icon }}"></i></a></li>
     {% endfor %}
   </ul>
-  <div class="container page-title">
-    <div class="row align-items-center">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">Blog</h1>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section class="section">
-  <div class="container">
+  <div class="container mt-n300">
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <div class="content">
-            <h2 class="font-tertiary mb-5 mt-n20">{{ page.title | escape }}</h2>
-            <p class="font-secondary smaller-text mt-n40 mb-30">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{
-              page.author }}</span class="text-primary"> on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}
-          </p>
-          <img src="{{page.image | relative_url }}" class="img-fluid w-100 rounded float-left mr-5 mb-4"
+          <img src="{{page.image | relative_url }}" class="img-fluid w-100 rounded float-left mr-5 mb-80 drop-shadow"
             alt="{{page.title}}">
+            <h2 class="font-tertiary mb-5 mt-n20">{{ page.title | escape }}</h2>
+            <p class="font-secondary smaller-text mt-n40 mb-30"><span class="text-primary">BLOG | </span class="text-primary">{{ page.date | date: '%b %d, %Y' }}
+          </p>
           {{ content }}
         </div>
       </div>
