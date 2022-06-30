@@ -7,7 +7,8 @@ layout: default
 <section class="hero-area">
   <ul class="list-unstyled ml-3 mt-3">
     {% for social in site.data.settings.social %}
-    <li class="mb-3"><a class="text-white" href="{{ social.link }}" target="_blank"><i class="{{ social.icon }}"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="{{ social.link }}" target="_blank"><i
+          class="{{ social.icon }}"></i></a></li>
     {% endfor %}
   </ul>
 </section>
@@ -19,9 +20,10 @@ layout: default
         <div class="content">
           <img src="{{project.image | relative_url }}" class="img-fluid w-100 rounded float-left mr-5 mb-80 drop-shadow"
             alt="{{project.name}}">
-            <h2 class="font-tertiary mb-5 mt-n20">{{ project.name | escape }}</h2>
-            <p class="font-secondary smaller-text mt-n40 mb-30"><span class="text-primary">PROJECT | </span class="text-primary">{{ project.year }}</p>
-                {{ content }}
+          <h2 class="font-tertiary mb-5 mt-n20">{{ project.name | escape }}</h2>
+          <p class="font-secondary smaller-text mt-n40 mb-30"><span class="text-primary">PROJECT | </span
+              class="text-primary">{{ project.year }}</p>
+          {{ content }}
         </div>
       </div>
     </div>
@@ -29,16 +31,17 @@ layout: default
 </section>
 
 {% if page.resources %}
-  <section class="section">
-    <div class="container mt-n120">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <div class="content">
-            <h3>Resources</h3>
-          </div>
+<section class="section">
+  <div class="container mt-n120">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="content">
+          <h3>Resources</h3>
         </div>
       </div>
     </div>
+  </div>
+
   {% for resource in page.resources %}
   <div class="container">
     <div class="row justify-content-center">
@@ -55,8 +58,6 @@ layout: default
       </div>
     </div>
   </div>
-    {% endfor %}
-    
+  {% endfor %}
 </section>
 {% endif %}
-
