@@ -41,6 +41,9 @@
 <loc>http://localhost:4000/ordle.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pnp.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/projects.html</loc>
 </url>
 </urlset>

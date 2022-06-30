@@ -197,72 +197,23 @@ portfolio-label:
 
 
 portfolio-items:
-  - image : "https://i.imgur.com/3cpl4DZ.gif"
+  - image: "assets/images/projects/ordle_game.png"
+    feature-gif: "https://i.imgur.com/3cpl4DZ.gif"
     url: "/ordle"
     id: ordle
     name: Ordle
-    byline: Wordle in Danish
     year: 2022
     portfolio-type:
      - type: "software"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "software"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "software"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "videos"
-      - type: "electronics"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "electronics"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "software"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "videos"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "videos"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    portfolio-type:
-      - type: "misc"
 
+  - image: "assets/images/projects/pnp_machine.jpg"
+    url: "/pnp"
+    id: pnp
+    name: Pick-and-Place Machine Based on a 3D Printer
+    year: 2022
+    portfolio-type:
+     - type: "electronics"
+   
 
 #-------------------------------
 # Testimonials Section
