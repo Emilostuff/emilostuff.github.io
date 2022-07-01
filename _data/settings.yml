@@ -15,8 +15,8 @@ about: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
 
 # MENU ---------------------------------------------------
 menu:
-- {name: Projects, link: /projects}
-- {name: Blog, link: /blog}
+- {name: Projects, link: "/projects"}
+- {name: Blog, link: "/blog"}
 - {name: Contact, link: '#bottom'}
 
 
@@ -27,10 +27,10 @@ hero:
 
 # SOCIAL -------------------------------------------------
 social:
-- {icon: ti-github, link: https://github.com/Emilostuff}
-- {icon: ti-linkedin, link: https://www.linkedin.com/in/emilskydsgaard/}
-- {icon: ti-instagram, link: https://www.instagram.com/emilostuff/}
-- {icon: ti-youtube, link: https://www.youtube.com/emilostuff}
+- {icon: ti-github, link: "https://github.com/Emilostuff"}
+- {icon: ti-linkedin, link: "https://www.linkedin.com/in/emilskydsgaard/"}
+- {icon: ti-instagram, link: "https://www.instagram.com/emilostuff/"}
+- {icon: ti-youtube, link: "https://www.youtube.com/emilostuff"}
 
 
 # PROJECTS ------------------------------------------------
@@ -49,8 +49,8 @@ portfolio-label:
 # All Projects
 portfolio-items:
   # 2022
-  - image: assets/images/projects/ordle_game.png
-    feature-gif: https://i.imgur.com/3cpl4DZ.gif
+  - image: "assets/images/projects/ordle_game.png"
+    feature-gif: "https://i.imgur.com/3cpl4DZ.gif"
     url: /ordle
     id: ordle
     name: Ordle – Wordle in Danish
@@ -58,7 +58,7 @@ portfolio-items:
     portfolio-type:
      - type: software
 
-  - image: assets/images/projects/pnp_machine.jpg
+  - image: "assets/images/projects/pnp_machine.jpg"
     url: /pnp
     id: pnp
     name: Pick-and-Place Machine Based on a 3D Printer
@@ -67,8 +67,8 @@ portfolio-items:
      - type: electronics
 
   # 2021
-  - image: https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg
-    feature-video: https://www.youtube.com/embed/9Fx9zQJe3H4
+  - image: "https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg"
+    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
     url: /plant-keeper
     id: plant-keeper
     name: Automated Plant Watering System
