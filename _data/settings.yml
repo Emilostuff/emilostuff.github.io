@@ -148,6 +148,11 @@ services:
 #-------------------------------
 # Portfolio (Section and Page)
 
+featured-projects:
+  - pnp
+  - ordle
+  - plant-keeper
+
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
@@ -223,7 +228,8 @@ portfolio-items:
     portfolio-type:
      - type: "electronics"
      - type: "videos"
-   
+
+
 
 #-------------------------------
 # Testimonials Section

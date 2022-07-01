@@ -8,17 +8,18 @@
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-home-items %}
+      {% for item in site.data.settings.featured-projects %}
+      {% assign project = site.data.settings.portfolio-items | where:"id", item | first %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;">
         <div class="position-relative rounded hover-wrapper">
-          {% if item.image contains "http" %}
-          <img src="{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          {% if project.image contains "http" %}
+          <img src="{{ project.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           {% else %}
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ project.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           {% endif %}
           <div class="hover-overlay">
             <div class="hover-content">
-              <h4 class="text-white mb-10 mt-3">{{ item.name }}</h4>
+              <h4 class="text-white mb-10 mt-3 ml-3 mr-3">{{ project.name }}</h4>
                   <!-- <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a> -->
             </div>
           </div>
