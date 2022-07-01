@@ -21,7 +21,7 @@ title: Projects
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;""
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;"
         data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded  hover-wrapper">
           {% if item.image contains "http" %}

@@ -68,7 +68,7 @@ layout: default
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-7 mb-20">
-        <div class="d-flex" onclick="location.href='{{ resource.url }}';" style="cursor:pointer;">
+        <div class="d-flex" onclick="window.open('{{ resource.url }}', '_blank');" style="cursor:pointer;">
           <div class="mr-lg-4 mr-3">
             <i class="{{ resource.icon }} icon icon-bg bg-white shadow rounded-circle d-block"></i>
           </div>
