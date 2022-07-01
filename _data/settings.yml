@@ -1,292 +1,80 @@
-#-------------------------------
-# General Site Settings
-
+# GENERAL SETTINGS ---------------------------------------
 title: Emil Skydsgaard
-logo: 
 author: Emil Skydsgaard
 description: My Personal Website
 email: emilskydsgaard@gmail.com
 phone: +45 30 95 15 04
 location: Copenhagen, Denmark
-#copyright: "&copy; Emil Skydsgaard"
+
+
+# ABOUT --------------------------------------------------
 about: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 
+# MENU ---------------------------------------------------
 menu:
-# - {name: About, link: '/about'}
-- {name: Projects, link: '/projects'}
-- {name: Blog, link: '/blog'}
-- {name: Contact, link: "#bottom"}
+- {name: Projects, link: /projects}
+- {name: Blog, link: /blog}
+- {name: Contact, link: '#bottom'}
 
 
-#-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
-
-
-#-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-
-#-------------------------------
-# Hero Section
-
+# HERO SECTION --------------------------------------------
 hero:
-  # hero-title: Software Engineer & Digital Creative
-  hero-bg: "assets/images/backgrounds/abstract2.jpeg"
+  hero-bg: assets/images/backgrounds/abstract2.jpeg
 
+
+# SOCIAL -------------------------------------------------
 social:
-- {icon: "ti-github", link: "https://github.com/Emilostuff"}
-- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/emilskydsgaard/"}
-- {icon: "ti-instagram", link: "https://www.instagram.com/emilostuff/"}
-- {icon: "ti-youtube", link: "https://www.youtube.com/emilostuff"}
+- {icon: ti-github, link: https://github.com/Emilostuff}
+- {icon: ti-linkedin, link: https://www.linkedin.com/in/emilskydsgaard/}
+- {icon: ti-instagram, link: https://www.instagram.com/emilostuff/}
+- {icon: ti-youtube, link: https://www.youtube.com/emilostuff}
 
 
-#-------------------------------
-# About (Section and Page)
-
-
-
-# About Page
-
-# Work Process Section
-work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
-
-
-#-------------------------------
-# Skills Section
-
-skills-title: Skills
-skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
-
-
-#-------------------------------
-# Exprerience Section
-
-experience-title: Experience
-experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
-
-
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-- {name: Electrical Engineering, date: '2020 - 2023', organization: 'Technical University of Denmark'}
-- {name: Film & Media Science, date: '2016 - 2019', organization: 'University of Copenhagen'}
-
-
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-- {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-
-
-
-#-------------------------------
-# Portfolio (Section and Page)
-
+# PROJECTS ------------------------------------------------
 featured-projects:
   - pnp
   - ordle
   - plant-keeper
 
-# Portfolio Home Section
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    name: Some Project
-    year: 2022
-
-
-# Portfolio Page
+# Labels
 portfolio-label:
-- {
-    title : "SOFTWARE",
-    type : "software"
-  }
-- {
-    title : "ELECTRONICS",
-    type : "electronics"
-  }
-- {
-    title : "VIDEOS",
-    type : "videos"
-  }
-- {
-    title : "MISC",
-    type : "misc"
-  }
+- {title: SOFTWARE, type: software}
+- {title: ELECTRONICS, type: electronics}
+- {title: VIDEOS, type: videos}
+- {title: MISC, type: misc}
 
-
+# All Projects
 portfolio-items:
-  - image: "assets/images/projects/ordle_game.png"
-    feature-gif: "https://i.imgur.com/3cpl4DZ.gif"
-    url: "/ordle"
+  # 2022
+  - image: assets/images/projects/ordle_game.png
+    feature-gif: https://i.imgur.com/3cpl4DZ.gif
+    url: /ordle
     id: ordle
     name: Ordle – Wordle in Danish
     year: 2022
     portfolio-type:
-     - type: "software"
+     - type: software
 
-  - image: "assets/images/projects/pnp_machine.jpg"
-    url: "/pnp"
+  - image: assets/images/projects/pnp_machine.jpg
+    url: /pnp
     id: pnp
     name: Pick-and-Place Machine Based on a 3D Printer
     year: 2022
     portfolio-type:
-     - type: "electronics"
+     - type: electronics
 
-  - image: "https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg"
+  # 2021
+  - image: https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg
     feature-video: https://www.youtube.com/embed/9Fx9zQJe3H4
-    url: "/plant-keeper"
+    url: /plant-keeper
     id: plant-keeper
     name: Automated Plant Watering System
     year: 2021
     portfolio-type:
-     - type: "electronics"
-     - type: "videos"
+     - type: electronics
+     - type: videos
 
 
-
-#-------------------------------
-# Testimonials Section
-
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-#-------------------------------
-# Contact Section
-
-# contact-title: Contact Info
-# contact-email: steve.fruits@email.com
