@@ -5,6 +5,8 @@
     // Scroll to bottom
     $("a[href='#bottom']").click(function () {
         $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+        // reset focus
+        document.activeElement.blur();
         return false;
     });
 
