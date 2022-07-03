@@ -37,6 +37,8 @@ featured-projects:
   - pnp
   - ordle
   - plant-keeper
+  - algoaid
+  - lindpro
 
 # Labels
 portfolio-label:
@@ -62,8 +64,17 @@ portfolio-items:
     year: 2022
     portfolio-type:
      - type: electronics
+    
+  - image: "assets/images/projects/algoaid.jpg"
+    url: algoaid
+    name: Algoaid – A Learning Tool for Students 
+    year: 2022
+    portfolio-type:
+     - type: software
 
   # 2021
+
+  # 2020
   - image: "assets/images/projects/plant_keeper.jpg"
     feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
     url: plant-keeper
@@ -74,8 +85,8 @@ portfolio-items:
      - type: videos
 
   - image: "assets/images/projects/rotating-platform.jpg"
-    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
-    url: ordle
+    feature-video: "https://www.youtube.com/embed/6-5eNO-go0M"
+    url: photo-booth
     name: Photo Booth With a Rotating Platform
     year: 2020
     portfolio-type:
@@ -83,111 +94,118 @@ portfolio-items:
      - type: videos
 
   - image: "assets/images/projects/gearbox.jpg"
-    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
-    url: ordle
-    name: Photo Booth With a Rotating Platform
+    feature-video: "https://www.youtube.com/embed/e12YoNOyO6M"
+    url: gearbox
+    name: 3D Printed Precision Gearbox 
     year: 2020
     portfolio-type:
      - type: electronics
      - type: videos
 
   - image: "assets/images/projects/tx.jpg"
-    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
-    url: ordle
+    feature-video: "https://www.youtube.com/embed/I6TKGMbHcfo"
+    url: arduino-tx
     name: Arduino Based Transmitter/Reciever
     year: 2020
     portfolio-type:
      - type: electronics
      - type: videos
 
-
-  - image: "assets/images/projects/cognitio.jpg"
-    url: ordle
-    name: Cognitio Short Film
+  - image: "assets/images/projects/medst.jpg"
+    url: medst
+    name: The Public Management Evaluation
     year: 2020
     portfolio-type:
      - type: videos
 
-  - image: "assets/images/projects/voksende.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/hugo-awards.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/hansens.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/kvalifik.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/nupo.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/videnskab.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/weswapp.jpg"
-    url: weswapp
-    name: Cognitio Short Film
-    year: 2020
-    portfolio-type:
-     - type: videos
-
+# 2019
   - image: "assets/images/projects/lindpro.jpg"
     url: lindpro
-    name: Lindpro - Company Promotion Films
-    year: 2020
-    portfolio-type:
-     - type: videos
-
-  - image: "assets/images/projects/medst.jpg"
-    url: ordle
-    name: Cognitio Short Film
-    year: 2020
+    name: Lindpro (Promotion Films)
+    year: 2019
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/kims.jpg"
     url: kims
     name: Kims Chips - Jørgen Ringer Retur
-    year: 2020
+    year: 2019
     portfolio-type:
      - type: videos
 
-  - image: "assets/images/projects/vektio.jpg"
-    url: vektio
-    name: Vektio - Smart Alarm Clock App for Students
-    year: 2020
-    portfolio-type:
-     - type: software
 
+# 2018
+  - image: "assets/images/projects/cognitio.jpg"
+    url: cognitio
+    name: Cognitio (Short Film)
+    year: 2017
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/voksende.jpg"
+    url: voksende-mennesker
+    name: Voksende Mennesker (Short Film)
+    year: 2018
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/kvalifik.jpg"
+    url: kvalifik
+    name: Vi er Kvalifik (Promotion Film)
+    year: 2018
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/nupo.jpg"
+    url: nupo
+    name: Nupo (Promotion Film)
+    year: 2018
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/videnskab.jpg"
+    url: videnskab
+    name: Videnskab er Lidenskab (Exhibition Films)
+    year: 2018
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/weswapp.jpg"
+    url: weswapp
+    name: WeSwapp (Promotion Film)
+    year: 2018
+    portfolio-type:
+     - type: videos
+
+# 2017
+  - image: "assets/images/projects/hugo-awards.jpg"
+    url: hugo-awards
+    name: Hugo Awards (Film Festival)
+    year: 2017
+    portfolio-type:
+     - type: videos
+
+# 2016
+  - image: "assets/images/projects/hansens.jpg"
+    url: hansens-is
+    name: Hansens Cykelløb (Promotion Film)
+    year: 2016
+    portfolio-type:
+     - type: videos
+  
   - image: "assets/images/projects/nat.jpg"
     url: overnight-albums
     name: Overnight Albums
-    year: 2016-2019
+    year: 2016–2019
     portfolio-type:
      - type: misc
+
+
+# 2014
+  - image: "assets/images/projects/vektio.jpg"
+    url: vektio
+    name: Vektio - Smart Alarm Clock App for Students
+    year: 2014
+    portfolio-type:
+     - type: software
+
