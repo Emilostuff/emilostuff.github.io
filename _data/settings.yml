@@ -34,11 +34,12 @@ social:
 
 # PROJECTS ------------------------------------------------
 featured-projects:
-  - pnp
-  - ordle
-  - plant-keeper
   - algoaid
-  - lindpro
+  - gearbox
+  - ordle
+  - ravi
+  - plant-keeper
+  - photo-booth
 
 # Labels
 portfolio-label:
@@ -119,16 +120,23 @@ portfolio-items:
      - type: videos
 
 # 2019
+  - image: "assets/images/projects/ravi.jpg"
+    url: ravi
+    name: We Are Ravi Kuma – Documentary Film
+    year: 2019
+    portfolio-type:
+     - type: videos
+
   - image: "assets/images/projects/lindpro.jpg"
     url: lindpro
-    name: Lindpro (Promotion Films)
+    name: Lindpro – Promotional Films
     year: 2019
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/kims.jpg"
     url: kims
-    name: Kims Chips - Jørgen Ringer Retur
+    name: Jørgens Hede Hule – Commercial
     year: 2019
     portfolio-type:
      - type: videos
@@ -137,42 +145,42 @@ portfolio-items:
 # 2018
   - image: "assets/images/projects/cognitio.jpg"
     url: cognitio
-    name: Cognitio (Short Film)
+    name: Cognitio – Short Film 
     year: 2017
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/voksende.jpg"
     url: voksende-mennesker
-    name: Voksende Mennesker (Short Film)
+    name: Voksende Mennesker – Short Film
     year: 2018
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/kvalifik.jpg"
     url: kvalifik
-    name: Vi er Kvalifik (Promotion Film)
+    name: Vi er Kvalifik – Promotional Film
     year: 2018
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/nupo.jpg"
     url: nupo
-    name: Nupo (Promotion Film)
+    name: Nupo – Commercial
     year: 2018
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/videnskab.jpg"
     url: videnskab
-    name: Videnskab er Lidenskab (Exhibition Films)
+    name: Videnskab er Lidenskab – Exhibition Films
     year: 2018
     portfolio-type:
      - type: videos
 
   - image: "assets/images/projects/weswapp.jpg"
     url: weswapp
-    name: WeSwapp (Promotion Film)
+    name: WeSwapp – Commercial
     year: 2018
     portfolio-type:
      - type: videos
@@ -180,7 +188,7 @@ portfolio-items:
 # 2017
   - image: "assets/images/projects/hugo-awards.jpg"
     url: hugo-awards
-    name: Hugo Awards (Film Festival)
+    name: Hugo Awards – Film Festival
     year: 2017
     portfolio-type:
      - type: videos
@@ -188,7 +196,7 @@ portfolio-items:
 # 2016
   - image: "assets/images/projects/hansens.jpg"
     url: hansens-is
-    name: Hansens Cykelløb (Promotion Film)
+    name: Hansens Cykelløb – Promotional Film
     year: 2016
     portfolio-type:
      - type: videos
@@ -204,7 +212,7 @@ portfolio-items:
 # 2014
   - image: "assets/images/projects/vektio.jpg"
     url: vektio
-    name: Vektio - Smart Alarm Clock App for Students
+    name: Vektio - Smart Alarm Clock App
     year: 2014
     portfolio-type:
      - type: software
