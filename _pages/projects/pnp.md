@@ -1,6 +1,5 @@
 ---
 layout: project
-id:  pnp
 resources:
   - icon: ti-youtube
     name: YouTube

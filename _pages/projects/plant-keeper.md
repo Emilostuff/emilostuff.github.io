@@ -1,6 +1,5 @@
 ---
 layout: project
-id:  plant-keeper
 resources:
   - icon: ti-youtube
     name: YouTube

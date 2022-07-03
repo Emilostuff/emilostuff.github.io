@@ -9,7 +9,7 @@
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.featured-projects %}
-      {% assign project = site.data.settings.portfolio-items | where:"id", item | first %}
+      {% assign project = site.data.settings.portfolio-items | where:"url", item | first %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ project.url }}';" style="cursor:pointer;">
         <div class="position-relative rounded hover-wrapper">
           <img src="{% thumbnails project.image 500 %}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">

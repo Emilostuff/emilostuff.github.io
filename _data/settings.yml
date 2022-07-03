@@ -50,30 +50,144 @@ portfolio-items:
   # 2022
   - image: "assets/images/projects/ordle_game.png"
     feature-gif: "https://i.imgur.com/3cpl4DZ.gif"
-    url: /ordle
-    id: ordle
+    url: ordle
     name: Ordle – Wordle in Danish
     year: 2022
     portfolio-type:
      - type: software
 
   - image: "assets/images/projects/pnp_machine.jpg"
-    url: /pnp
-    id: pnp
+    url: pnp
     name: Pick-and-Place Machine Based on a 3D Printer
     year: 2022
     portfolio-type:
      - type: electronics
 
   # 2021
-  - image: "assets/images/projects/pnp_machine.jpg"
+  - image: "assets/images/projects/plant_keeper.jpg"
     feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
-    url: /plant-keeper
-    id: plant-keeper
+    url: plant-keeper
     name: Automated Plant Watering System
-    year: 2021
+    year: 2020
+    portfolio-type:
+     - type: electronics
+     - type: videos
+
+  - image: "assets/images/projects/rotating-platform.jpg"
+    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
+    url: ordle
+    name: Photo Booth With a Rotating Platform
+    year: 2020
+    portfolio-type:
+     - type: electronics
+     - type: videos
+
+  - image: "assets/images/projects/gearbox.jpg"
+    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
+    url: ordle
+    name: Photo Booth With a Rotating Platform
+    year: 2020
+    portfolio-type:
+     - type: electronics
+     - type: videos
+
+  - image: "assets/images/projects/tx.jpg"
+    feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
+    url: ordle
+    name: Arduino Based Transmitter/Reciever
+    year: 2020
     portfolio-type:
      - type: electronics
      - type: videos
 
 
+  - image: "assets/images/projects/cognitio.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/voksende.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/hugo-awards.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/hansens.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/kvalifik.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/nupo.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/videnskab.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/weswapp.jpg"
+    url: weswapp
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/lindpro.jpg"
+    url: lindpro
+    name: Lindpro - Company Promotion Films
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/medst.jpg"
+    url: ordle
+    name: Cognitio Short Film
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/kims.jpg"
+    url: kims
+    name: Kims Chips - Jørgen Ringer Retur
+    year: 2020
+    portfolio-type:
+     - type: videos
+
+  - image: "assets/images/projects/vektio.jpg"
+    url: vektio
+    name: Vektio - Smart Alarm Clock App for Students
+    year: 2020
+    portfolio-type:
+     - type: software
+
+  - image: "assets/images/projects/nat.jpg"
+    url: overnight-albums
+    name: Overnight Albums
+    year: 2016-2019
+    portfolio-type:
+     - type: misc
