@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 ---
+
+
 <!-- portfolio -->
 <section class="section">
   <div class="container">
@@ -24,11 +26,7 @@ title: Projects
       <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ item.url }}';" style="cursor:pointer;"
         data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded  hover-wrapper">
-          {% if item.image contains "http" %}
-          <img src="{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          {% else %}
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          {% endif %}
+          <img src="{% thumbnails item.image 500 %}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <h4 class="text-white mb-10 mt-3 ml-3 mr-3">{{ item.name }}</h4>

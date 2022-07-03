@@ -66,7 +66,7 @@ portfolio-items:
      - type: electronics
 
   # 2021
-  - image: "https://img.youtube.com/vi/9Fx9zQJe3H4/maxresdefault.jpg"
+  - image: "assets/images/projects/pnp_machine.jpg"
     feature-video: "https://www.youtube.com/embed/9Fx9zQJe3H4"
     url: /plant-keeper
     id: plant-keeper

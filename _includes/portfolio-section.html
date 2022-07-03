@@ -12,11 +12,7 @@
       {% assign project = site.data.settings.portfolio-items | where:"id", item | first %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" onclick="location.href='{{ project.url }}';" style="cursor:pointer;">
         <div class="position-relative rounded hover-wrapper">
-          {% if project.image contains "http" %}
-          <img src="{{ project.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          {% else %}
-          <img src="{{ site.baseurl }}/{{ project.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          {% endif %}
+          <img src="{% thumbnails project.image 500 %}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <h4 class="text-white mb-10 mt-3 ml-3 mr-3">{{ project.name }}</h4>
