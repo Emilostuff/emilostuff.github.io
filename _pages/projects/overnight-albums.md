@@ -3,7 +3,7 @@ layout: project
 resources:
   - icon: ti-soundcloud
     name: SoundCloud
-    content: "A Night – Vol. 1 (2016)"
+    content: A Night – Vol. 1 (2016)
     url: https://github.com/Emilostuff/ordle
   - icon: ti-soundcloud
     name: SoundCloud
