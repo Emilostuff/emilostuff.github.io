@@ -7,6 +7,7 @@ highlighter: rouge
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-target-blank
 compress_html:
   clippings: all
   comments: all
