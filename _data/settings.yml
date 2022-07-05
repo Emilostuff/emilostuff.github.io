@@ -8,7 +8,7 @@ location: Copenhagen, Denmark
 
 
 # ABOUT --------------------------------------------------
-about: I am a software engineer from Denmark with a background in electrical engineering and the creative media industry. 
+about: I am a software & computer engineer from Denmark with a background in electrical engineering and the creative media industry. 
   In my spare time I enjoy playing volleyball, doing fun projects with my friends and occasionally making videos for my YouTube channel or Instagram page.
 
 
@@ -121,6 +121,7 @@ portfolio-items:
 
 # 2019
   - image: "assets/images/projects/ravi.jpg"
+    feature-video: "https://www.youtube.com/embed/d_nGzPI5vDo"
     url: ravi
     name: We Are Ravi Kuma – Documentary Film
     year: 2019
@@ -136,7 +137,7 @@ portfolio-items:
 
   - image: "assets/images/projects/kims.jpg"
     url: kims
-    name: Jørgens Hede Hule – Commercial
+    name: Jørgens Hede Hule – Commercials
     year: 2019
     portfolio-type:
      - type: videos
@@ -146,7 +147,7 @@ portfolio-items:
   - image: "assets/images/projects/cognitio.jpg"
     url: cognitio
     name: Cognitio – Short Film 
-    year: 2017
+    year: 2018
     portfolio-type:
      - type: videos
 
@@ -158,6 +159,7 @@ portfolio-items:
      - type: videos
 
   - image: "assets/images/projects/kvalifik.jpg"
+    feature-video: "https://www.youtube.com/embed/JcAev9UVA6s"
     url: kvalifik
     name: Vi er Kvalifik – Promotional Film
     year: 2018
@@ -165,6 +167,7 @@ portfolio-items:
      - type: videos
 
   - image: "assets/images/projects/nupo.jpg"
+    feature-video: "https://www.youtube.com/embed/FQtp2dJQR64"
     url: nupo
     name: Nupo – Commercial
     year: 2018
@@ -178,7 +181,16 @@ portfolio-items:
     portfolio-type:
      - type: videos
 
+  - image: "assets/images/projects/fa09.jpg"
+    feature-video: "https://www.youtube.com/embed/eV0Wumy8vIU"
+    url: fa09
+    name: FA09 – Promotional Film
+    year: 2018
+    portfolio-type:
+     - type: videos
+
   - image: "assets/images/projects/weswapp.jpg"
+    feature-video: "https://www.youtube.com/embed/GDWekDf25X0"
     url: weswapp
     name: WeSwapp – Commercial
     year: 2018
@@ -195,6 +207,7 @@ portfolio-items:
 
 # 2016
   - image: "assets/images/projects/hansens.jpg"
+    feature-video: "https://www.youtube.com/embed/AosLNZZoOgY"
     url: hansens-is
     name: Hansens Cykelløb – Promotional Film
     year: 2016
