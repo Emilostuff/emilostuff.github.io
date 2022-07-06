@@ -77,6 +77,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
+    rmagick (4.2.5)
     rouge (3.29.0)
     ruby-vips (2.1.4)
       ffi (~> 1.12)
@@ -103,6 +104,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-target-blank
   jekyll-thumbnails!
+  rmagick
   wdm (>= 0.1.0)
 
 BUNDLED WITH
