@@ -94,6 +94,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  image_processing (>= 1.0)
   jekyll
   jekyll-sitemap
   jekyll-target-blank
