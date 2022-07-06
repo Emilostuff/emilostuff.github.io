@@ -21,6 +21,8 @@ GEM
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
+    graphicsmagick (1.0.6)
+      subexec
     http_parser.rb (0.8.0)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
@@ -83,6 +85,7 @@ GEM
       ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
+    subexec (0.2.3)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
@@ -94,6 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  graphicsmagick (~> 1.0, >= 1.0.5)
   image_processing (>= 1.0)
   jekyll
   jekyll-sitemap

@@ -6,3 +6,4 @@ gem 'wdm', '>= 0.1.0'
 gem 'jekyll-thumbnails', git: 'https://github.com/Emilostuff/jekyll-thumbnails'#, group: :jekyll_plugins
 gem 'jekyll-target-blank'
 gem 'image_processing', '>= 1.0'
+gem 'graphicsmagick', '~> 1.0', '>= 1.0.5'
